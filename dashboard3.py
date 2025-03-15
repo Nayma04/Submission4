@@ -15,7 +15,7 @@ st.write(
 day_df = pd.read_csv(r"Penyewaan_Sepeda.csv")
 
 # 🎯 **Konversi kolom tanggal**
-day_df["date"] = pd.to_datetime(day_df["date"])
+day_df["date"] = pd.to_datetime(day_df["date"]) 
 min_date = day_df["date"].min()
 max_date = day_df["date"].max()
 
